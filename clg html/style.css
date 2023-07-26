@@ -1,0 +1,113 @@
+.
+{
+	padding: 0;
+	margin: 0;
+	
+}
+body
+{
+ background-image: url('cu clg.jpg');
+ padding: 0 ;
+ width: 100%;
+ height: 100%;
+ margin: 4px;
+
+}
+.container
+{
+    border-radius: 15px;
+	border: 0.5px solid lightgray;
+	max-width: 500px;
+    width: 50%;
+    background-color:lightgray;
+    margin:70px auto ;
+    padding: 30px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.container .title
+{
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 25px;
+	color: darkred;
+	text-transform: uppercase;
+	text-align: center;
+}
+.container.Form
+{
+	width: 50%;
+}
+.container .Form .input_field
+{
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.container .Form .input_field label
+{
+	width: 200px;
+	margin-right: 10px;
+	font-size: 14px;
+}
+.container .Form .input_field .input
+
+{
+	border-radius: 5px;
+	width: 100%;
+	outline: none;
+	font-size: 15px;
+	padding: 8px 10px;
+}
+.container .Form .input_field .textarea
+{
+	border-radius: 5px;
+	resize: none;
+	outline: none;
+	width: 100%;
+	font-size: 15px;
+	padding: 8px 10px;
+}
+
+.container .Form .input_field .selectbox
+{
+	position: relative;
+	width: 105%;
+	height: 40px;
+	outline: none;
+}
+.container .Form .input_field .btr
+{
+	width: 100%;
+	padding: 8px 10px;
+	font-size: 15px;
+	border: 0;
+	background: green;
+	color: white;
+	cursor: pointer;
+	outline: none;
+	border-radius: 5px;
+
+
+}
+.container .Form .input_field:last-child
+{
+	margin-bottom:0 ;
+}
+.container .Form .input_field .btr:hover
+{
+	background: darkgreen;
+}
+@media (max-width: 420px)
+{
+.container .Form .input_field
+   {
+	flex-direction: column;
+	align-items: flex-start;
+   }
+}
+.container .Form .input_field
+{
+	margin-bottom: 15px;
+}
